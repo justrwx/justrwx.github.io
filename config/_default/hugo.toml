@@ -3,7 +3,8 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://itsruben.github.io/"
+baseURL = "https://rcastrobak.github.io/itsruben.github.io/"
+
 defaultContentLanguage = "en"
 [params.author]
 name = "~/ruben.bak"
