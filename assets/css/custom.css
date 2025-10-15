@@ -1,0 +1,12 @@
+/* Estilo para agregar un borde vertical a la izquierda de las secciones */
+.section {
+  border-left: 4px solid #8B5CF6; /* Color morado claro  */
+  padding-left: 15px; /* Espacio entre el borde y el texto */
+  margin-bottom: 20px; /* Separación entre secciones */
+}
+
+/* Asegúrate de que los encabezados y párrafos dentro de las secciones no se vean afectados */
+.section h2, .section p {
+  margin-left: 0;
+}
+
