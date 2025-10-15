@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://rcastrobak.github.io/itsruben.github.io/"
+baseURL = "itsruben.github.io/"
 
 defaultContentLanguage = "en"
 [params.author]
@@ -13,6 +13,9 @@ links = [
   { github = "https://github.com/" },
   { linkedin = "https://www.linkedin.com/in/r-castro/" }
 ]
+
+git submodule update --init --recursive
+
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
