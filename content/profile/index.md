@@ -46,7 +46,7 @@ weight: 10
 
 | Project                          | Description                                      | Dates           |
 |----------------------------------|--------------------------------------------------|-----------------|
-| Remodeling of Intermodal Terminal | Collaborated on IT infrastructure design, relocated SITE and CCTV, and managed service contracts to ensure operational continuity. | 2022 - 2023 |
+| Terminal Intermodal | Partnered with architects and external vendors to design IT infrastructure, oversaw site and CCTV systems, and handled service contracts to ensure continuous operations. | 2022 - 2023 |
 
 ## Education
 
