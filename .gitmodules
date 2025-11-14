@@ -1,7 +1,3 @@
-[submodule "public"]
-    path = public
-    url = https://github.com/justrwx/justrwx.github.io.git
-
 [submodule "themes/blowfish"]
     path = themes/blowfish
     url = https://github.com/nunocoracao/blowfish
