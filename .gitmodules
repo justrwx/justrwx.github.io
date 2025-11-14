@@ -1,7 +1,8 @@
 [submodule "public"]
-	path = public
-	url = https://github.com/rcastrobak/itsruben.github.io.git
+    path = public
+    url = https://github.com/justrwx/justrwx.github.io.git
+
 [submodule "themes/blowfish"]
-	path = themes/blowfish
-	url = https://github.com/nunocoracao/blowfish
-	branch = main
+    path = themes/blowfish
+    url = https://github.com/nunocoracao/blowfish
+    branch = main
