@@ -26,5 +26,12 @@ I’m also passionate about emerging technologies and continuous learning. Wheth
 
 ## Curious Glitch
 <div class="section">
-In those quiet moments when there was nothing to do, I’d find myself staring at the sky — and then, suddenly, there it was. A bright ovni shot across at incredible speed, vanishing into the night as if slicing through the darkness. Just one of those strange moments that stuck with me.
+In those quiet moments with nothing to occupy me, I’d find myself gazing at the sky — and then, out of nowhere, it appeared. A bright UFO streaked across at incredible speed, disappearing into the night as if cutting through the darkness. Just one of those strange moments that stayed with me.
 </div>
+
+## Sunny Day
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1E8LsrMyxQ0F0f?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+</iframe>
+
+   
