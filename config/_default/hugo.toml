@@ -9,6 +9,7 @@ defaultContentLanguage = "en"
 
 [params.author]
 name = "~/ruben.bak"
+image = "https://justrwx.github.io/img/avatar.png"
 headline = "(Un)complicating tech support - or repeating the same ticket tomorrow..."
 links = [
   { github = "https://github.com/justrwx" },
