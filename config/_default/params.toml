@@ -182,3 +182,5 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
   [params.favicon]
   appleTouchIcon = true   # use apple-touch-icon.png
+
+

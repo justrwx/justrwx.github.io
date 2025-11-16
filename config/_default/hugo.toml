@@ -78,4 +78,8 @@ name = "fragmentrefs"
 type = "fragments"
 weight = 10
 
+[params.ui]
+lightbox = true
+
+
 
