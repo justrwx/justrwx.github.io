@@ -5,6 +5,8 @@ draft: false
 description: "What I learned from spotting real threats using XDR."
 tags: ["Cybersecurity", "SOC", "XDR", "MITRE", "NIST", "CVE","Threats"]
 categories: ["Cybersecurity"]
+
+
 ---
 
 In the world of cybersecurity, a **CVE (Common Vulnerabilities and Exposures)** is like a public alarm: a unique ID for known vulnerabilities in software or hardware. It’s not “just a bug”—it’s an open door that, if left unpatched, an attacker will walk right through.
