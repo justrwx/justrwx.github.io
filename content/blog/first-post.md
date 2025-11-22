@@ -1,56 +1,53 @@
 ---
-title: "My First Month in a SOC: Cybersecurity Lessons — CVEs?"
+title: "My First Month in a SOC: From CVEs to Real Threats"
 date: 2025-11-14
 draft: false
-description: "What I learned from spotting real threats using XDR."
-tags: ["Cybersecurity", "SOC", "XDR", "MITRE", "NIST", "CVE","Threats"]
+description: "Diving into the deep end of cybersecurity, I learned how a simple CVE number can represent a major threat and how XDR helps us fight back."
+tags: ["Cybersecurity", "SOC", "XDR", "MITRE", "NIST", "CVE", "Threats", "Career"]
 categories: ["Cybersecurity"]
-
-
 ---
 
-In the world of cybersecurity, a **CVE (Common Vulnerabilities and Exposures)** is like a public alarm: a unique ID for known vulnerabilities in software or hardware. It’s not “just a bug”—it’s an open door that, if left unpatched, an attacker will walk right through.
+My first month in the Security Operations Center (SOC) felt like drinking from a firehose. Between the blinking dashboards, the constant stream of alerts, and the alphabet soup of acronyms, it was a lot to take in. But then, a real-world threat popped up on my screen, and suddenly, the theory I had been learning snapped into sharp focus. It all started with a CVE.
 
-### What is a CVE and Why Should You Care?
+### What’s in a Name? The Reality of a CVE
 
-- **Definition:** A global catalog of vulnerabilities maintained by MITRE and NIST. Each CVE has a unique ID (e.g., CVE-2025-XXXX), a CVSS severity score (0–10), and detailed information in the NVD.
-- **Real-World Example:** CVE-2025-6558 is a **critical sandbox escape vulnerability** in Google Chrome’s ANGLE (Almost Native Graphics Layer Engine) and GPU components. It allows remote attackers to execute arbitrary code by exploiting insufficient input validation via malicious WebGL/HTML content.
-- **Impact:** The attacker could execute arbitrary code with the same privileges as the user, breaking Chrome’s primary defense.
-- **Solution:** Upgrade to **version 138.0.7204.157 or later**, where this vulnerability is patched.
+Before working in a SOC, I knew what a **CVE (Common Vulnerabilities and Exposures)** was—a unique ID for a known vulnerability. But it was just a number, an entry in a database. It wasn't until I saw one in the wild that I truly understood its power.
 
-### How to Identify a CVE in Your Environment
+A CVE isn't "just a bug." It's a documented weakness that attackers can, and will, use to break into systems. Take **CVE-2025-6558**, for example. This is a **critical sandbox escape vulnerability** in Google Chrome's graphics engine. In plain English, it means that a specially crafted website could break out of the browser's security and run malicious code on a user's computer.
 
-Use advanced cybersecurity solutions like **XDR (Extended Detection and Response)** to ensure proactive, automated detection:
+- **The Impact:** An attacker could execute code with the user's privileges, completely bypassing Chrome's primary defense.
+- **The Fix:** A simple update to version **138.0.7204.157 or later** patches this vulnerability.
 
-1. **Monitor NVD or CISA KEV (Known Exploited Vulnerabilities):**
-   - Visit [nvd.nist.gov](https://nvd.nist.gov) and search for keywords like "Active Directory", "Chrome", or "Windows".
-   - Or check the [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) for vulnerabilities already exploited in the wild.
+Seeing this CVE wasn't just an academic exercise. It was a real threat, on our network, and we had to act fast.
 
-2. **Scan Your Network with an XDR Solution (e.g., Microsoft Defender XDR or Splunk XDR):**
+### Connecting the Dots: How We Found the Threat with XDR
 
-An XDR platform operates through three core stages, integrating data from multiple sources:
+So how did we spot this CVE in a sea of network traffic? This is where **XDR (Extended Detection and Response)** comes in. Think of it as a super-smart security system that connects information from all over your network to find threats that would otherwise go unnoticed.
 
-1. **Data Collection and Correlation:**
-   - Ingests **raw telemetry** from across the entire security stack—not just endpoints like traditional EDR.
-   - Sources include: **Endpoints** (devices), **Network**, **Email**, **Identity** (logins and access), and **Cloud Workloads**.
-   - **Normalizes** and stores all data in a centralized cloud-based **data lake**.
+An XDR platform works in three main stages:
 
-2. **Contextual Analysis and Detection:**
-   - Leverages **Artificial Intelligence (AI)**, **Machine Learning (ML)**, and advanced analytics to examine correlated data.
-   - Instead of isolated alerts from siloed tools, XDR **connects the dots** to reveal the **full attack chain** across layers (e.g., a malicious email → network traversal → endpoint execution).
-   - This dramatically reduces false positives and eliminates alert fatigue for security teams.
+1.  **Data Collection and Correlation:**
+    XDR doesn't just look at one part of the network; it pulls in data from everywhere—endpoints (like laptops and servers), network devices, email systems, and even cloud services. All this information is collected and stored in one place, creating a complete picture of what's happening.
 
-3. **Accelerated and Automated Response:**
-   - Automatically prioritizes the most critical incidents.
-   - Enables analysts (or the system itself) to execute coordinated response actions across all affected layers. For example: **isolate** an endpoint, **revoke** a user credential, **block** an IP at the firewall, and **delete** the malicious email from all inboxes—all in a single workflow.
+2.  **Contextual Analysis and Detection:**
+    This is where the magic happens. Using **Artificial Intelligence (AI)** and **Machine Learning (ML)**, the XDR system analyzes all that data to find patterns and connections. Instead of just giving us a bunch of isolated alerts, it pieces together the entire story of an attack. For example, it can show how a malicious email led to a user clicking a link, which then tried to exploit the Chrome CVE on their machine. This context is crucial for understanding the threat and how to respond.
 
+3.  **Accelerated and Automated Response:**
+    Once a threat is identified, XDR helps us respond quickly and effectively. We can take coordinated actions across different systems from a single console. For CVE-2025-6558, we could:
+    *   **Isolate** the affected computer from the network.
+    *   **Block** the malicious website at the firewall.
+    *   **Delete** the original malicious email from all user inboxes.
+
+This ability to respond in a coordinated way is what makes XDR so powerful.
 
 {{< figure 
-    src="/image/docs.wb.jpeg" 
-    alt="Workbench" 
-    width="48" 
-    height="48" 
+    src="/images/docs.wb.jpeg" 
+    alt="A diagram showing how XDR collects and correlates data from multiple sources to provide a unified view of a threat." 
     class="inline-block"
 >}}
 
-Adopting XDR isn’t just about boosting security—it’s about upgrading from a basic alarm to a system that can **detect, respond to, and neutralize threats in real time**. For businesses, it delivers a truly comprehensive defense.
+### From Theory to Practice
+
+That first month in the SOC was a whirlwind, but it taught me a valuable lesson. Cybersecurity isn't just about knowing the definitions of acronyms. It's about understanding how they connect to real-world threats and using the right tools to protect your organization. Seeing that CVE, and using our XDR platform to neutralize the threat, was a turning point for me. It was the moment I went from being a student of cybersecurity to a practitioner.
+
+Adopting XDR isn’t just about boosting security—it’s about upgrading from a basic alarm to a system that can **detect, respond to, and neutralize threats in real time**. For any business, that's a powerful defense.
