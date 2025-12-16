@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EDR on ruben.bak</title><link>https://justrwx.github.io/tags/edr/</link><description>Recent content in EDR on ruben.bak</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 ~/ruben.bak</copyright><lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://justrwx.github.io/tags/edr/index.xml" rel="self" type="application/rss+xml"/><item><title>Cut Through the Noise: XDR’s Key to Exposing Real Threats with Correlated Context</title><link>https://justrwx.github.io/blog/connecting-the-dots-xdr/</link><pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate><guid>https://justrwx.github.io/blog/connecting-the-dots-xdr/</guid><description>&lt;p&gt;XDR (Extended Detection and Response) isn’t a silver bullet — it’s the glue that turns isolated alerts into a single, actionable incident by correlating telemetry across email, endpoint, and network. This reduces time-to-detection and enables faster containment.&lt;/p&gt;
+&lt;figure&gt;&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Flow diagram showing email → endpoint → network correlation forming a single incident"
+src="https://justrwx.github.io/images/xdr-context.svg"
+&gt;&lt;/figure&gt;
+&lt;h2 class="relative group"&gt;Context First: Making XDR Actionable
+&lt;div id="context-first-making-xdr-actionable" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#context-first-making-xdr-actionable" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;In my first post, I wrote about arriving in the SOC and learning that real threats rarely appear as textbook CVEs. Often, the biggest risk is not a clever zero-day — it’s noise: dozens of isolated alerts with no shared context.&lt;/p&gt;</description></item><item><title>Beyond EDR: Why Your Cybersecurity Strategy Is Failing</title><link>https://justrwx.github.io/blog/cs-beyond-edr/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://justrwx.github.io/blog/cs-beyond-edr/</guid><description>&lt;p&gt;At my last job, I heard a phrase that stopped me in my tracks:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Everything is fine. We have an EDR solution, and we&amp;rsquo;ve never had an incident.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This statement sounded reassuring on the surface, but the reality was dangerously different.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;The True Scope of Responsibility
+&lt;div id="the-true-scope-of-responsibility" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-true-scope-of-responsibility" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;As a support engineer, my role extends far beyond &amp;ldquo;fixing machines&amp;rdquo; or &amp;ldquo;blocking emails.&amp;rdquo; My core mission is to &lt;strong&gt;ensure the operational continuity of the entire organization&lt;/strong&gt;. This means every workstation, server, peripheral, and application must function as a cohesive, well-oiled part of a larger system.&lt;/p&gt;</description></item></channel></rss>

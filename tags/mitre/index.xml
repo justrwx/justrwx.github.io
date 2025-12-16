@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MITRE on ruben.bak</title><link>https://justrwx.github.io/tags/mitre/</link><description>Recent content in MITRE on ruben.bak</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 ~/ruben.bak</copyright><lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://justrwx.github.io/tags/mitre/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Month in a SOC: From CVEs to Real Threats</title><link>https://justrwx.github.io/blog/first-post/</link><pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate><guid>https://justrwx.github.io/blog/first-post/</guid><description>&lt;p&gt;My first month in the Security Operations Center (SOC) felt like drinking from a firehose. Between the blinking dashboards, the constant stream of alerts, and the alphabet soup of acronyms, it was a lot to take in. But then, a real-world threat popped up on my screen, and suddenly, the theory I had been learning snapped into sharp focus. It all started with a CVE.&lt;/p&gt;
+&lt;h3 class="relative group"&gt;What’s in a Name? The Reality of a CVE
+&lt;div id="whats-in-a-name-the-reality-of-a-cve" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#whats-in-a-name-the-reality-of-a-cve" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;Before working in a SOC, I knew what a &lt;strong&gt;CVE (Common Vulnerabilities and Exposures)&lt;/strong&gt; was—a unique ID for a known vulnerability. But it was just a number, an entry in a database. It wasn&amp;rsquo;t until I saw one in the wild that I truly understood its power.&lt;/p&gt;</description></item></channel></rss>
